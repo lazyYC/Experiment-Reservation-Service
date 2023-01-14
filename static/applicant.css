@@ -1,0 +1,94 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.main-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 40px;
+  width: 680px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.main-box h2 {
+margin: 0 0 15px;
+padding: 0;
+color: #fff;
+text-align: center;
+}
+
+.main-box .sub-box {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.main-box .sub-box .exp-box {
+  position: relative;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  padding:2%;
+  flex-basis:30%;
+  flex-shrink:1;
+  align-items: center;
+}
+
+.main-box .sub-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.main-box .sub-box a {
+  position: relative;
+  display: flex;
+  width:100%;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  justify-content: center;
+}
+
+.main-box .sub-box a:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+

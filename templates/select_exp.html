@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8" />
+    <title>心理系實驗報名系統（demo）</title>
+    <link rel="shortcut icon" href="{{url_for('static', filename='capybara.svg')}}"/>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='select_exp.css')}}"/>
+</head>
+<body>
+    <div class="main-box">
+        <h2>您的實驗（demo）</h2>
+        <div class="sub-box">
+            {% for exp in current_expts %}
+            <div class="exp-box">
+                <a href="/manage_time?name={{exp}}" class="exp">{{exp}}</a>
+            </div>
+            {% endfor %}
+            <div class="exp-box">
+                <a href="/add_exp" class="exp" id="add">
+                    <img id="plus" src="{{url_for('static', filename = 'plus.png')}}">
+                    new experiment
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

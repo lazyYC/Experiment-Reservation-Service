@@ -1,0 +1,6 @@
+Flask==2.2.2
+flask_bcrypt==1.0.1
+pymongo==4.2.0
+pymongo[srv]
+gunicorn
+

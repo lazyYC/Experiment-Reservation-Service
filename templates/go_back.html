@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8" />
+        <title>心理系實驗報名系統（demo）</title>
+        <link rel="shortcut icon" href="{{url_for('static', filename='capybara.svg')}}"/>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='msg.css')}}"/>
+    </head>
+    <body>
+        <div class="main-box">
+            <h3>{{data.msg}}</h3>
+            <a href = "{{data.url}}">{{data.text}}</a>
+        </div>
+    </body>
+</html>

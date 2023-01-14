@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset = "utf-8" />
+    <title>心理系實驗報名系統（demo）</title>
+    <link rel="shortcut icon" href="{{url_for('static', filename='capybara.svg')}}"/>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='login.css')}}"/>
+</head>  
+
+<body>
+  <div class="login-box">
+    <h2>請輸入您的信箱並設定密碼</h2>
+    <form action = "/register" method = POST>
+      <div class="user-box">
+        <input type="text" name="email" required="@">
+        <label>Username</label>
+      </div>
+      <div class="user-box">
+        <input type="password" name="password" required>
+        <label>Password</label>
+      </div>
+      <div class="user-box">
+        <input type="text" name="username" required>
+        <label>真實姓名</label>
+      </div>
+      <button href="#">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
+
+
