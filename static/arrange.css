@@ -13,7 +13,7 @@ background: linear-gradient(#141e30, #243b55);
 position: absolute;
 top: 50%;
 left: 50%;
-width: 680px;
+width: 60%;
 padding: 40px;
 transform: translate(-50%, -50%);
 background: rgba(0,0,0,.5);
@@ -48,7 +48,7 @@ text-align: center;
   justify-content: center;
   text-align: center;
   padding:2%;
-  flex-basis:30%;
+  flex-basis:25%;
   flex-shrink:1;
   align-items: center;
 }

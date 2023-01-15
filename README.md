@@ -1,5 +1,6 @@
 # Experiment-Reservation-Service
-
+#唯一作者為 @lazyYC
+<br>
 本專案原先是為政大心理系用來招收實驗受試者，所開發的實驗預約系統，以下是網站實際部署的demo：
 <br>
 https://experiment-reservation-services.fly.dev/
