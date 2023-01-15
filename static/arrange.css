@@ -23,15 +23,15 @@ border-radius: 10px;
 }
 
 .main-box h2 {
-margin: 0 0 15px;
+margin: 0 0 30px;
 padding: 0;
 color: #fff;
 text-align: center;
 }
 
 .main-box h3 {
-  margin: 0 0 12px;
-  padding: 0;
+  margin: 30px 0 10px;
+  padding: 20px;
   color: #fff;
   text-align: left;
   }
